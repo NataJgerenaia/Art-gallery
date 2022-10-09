@@ -1,0 +1,119 @@
+body {
+    background-color: #f2f2f2;
+}
+.woman-main-pic {
+    width: 100%;
+}
+.container {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.text-title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 32px;
+}
+.text {
+    max-width: 343px;
+    max-height: 112px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    line-height: 28px;
+    font-weight: 300;
+    color: #444444;
+    margin-top: 32px;
+}
+.location-button {
+    display: flex;
+    margin-top: 32px;
+}
+.black-part {
+    width: 204px;
+    height: 72px;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location-text {
+    width: 137px;
+    height: 24px;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.lightbrown-part {
+    width: 56px;
+    height: 72px;
+    background-color: #d5966c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interior {
+    width: 100% ;
+    margin-top: 120px;
+}
+.change-top {
+    margin-top: 25px;
+}
+.interior-pic2 {
+    width: 100%;
+    margin-top: 32px;
+}
+.interior-pic3 {
+    width: 100%;
+    margin-top: 16px;
+}
+.black-div {
+    background-color: #151515;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    padding-right: 24px; 
+    margin-top: 16px;   
+}
+.blackdiv-text {
+    width: 295px;
+    height: 94px;
+    margin-top: 24px;
+    color:white;
+}
+.blackdiv-title {
+    color: white;
+    margin-top: 16px;
+}
+.footer-title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 32px;
+}
+.footer-text {
+    color:white;
+}
+footer {
+    width: 100%;
+    margin-top: 120px;
+    background-color:#151515;
+    height: 336px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons {
+    width: 90px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
