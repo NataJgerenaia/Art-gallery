@@ -167,6 +167,7 @@ footer {
 	border-top: 30px solid #151515;
     display: block;
     margin: 0 auto;
+    position: static;
 }
 .inside-cube {
     width: 66px;
