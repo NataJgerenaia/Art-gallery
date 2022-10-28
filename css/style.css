@@ -14,6 +14,9 @@ body {
     margin-left: 16px;
     margin-right: 16px;
 }
+.main-pic-re {
+    display: none;
+}
 .text-title {
     font-weight: 900;
     font-size: 60px;
@@ -234,6 +237,12 @@ footer {
 .modern-textre {
     display: none;
 }
+.modern-text-re {
+    display: none;
+}
+.forre {
+    display: none;
+}
 .location-lines {
     width: 100%;
     height: 84px;
@@ -371,62 +380,71 @@ footer {
     }
 }
 /* for desktop */
-@media screen and (min-width:1400px) {
-    :root {
-        --color-1: white;
-        --color-2: #151515;
+@media screen and (min-width:1300px) {
+    .img-woman-rescont {
+        display: none;
+    }
+  
+    .woman-blackdiv {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .black-divpartre {
+        width: 40%;
+        height: 100vh;
+        background-color: #151515;
+        color: white;
+    }
+    .womanpic-rescont {
+        width: 60%;
+        height: 100vh;
+        background-image: url('../images/mainre.jpg');
+        background-size: cover;
+        background-position: 100%;
+    }
+    .main-pic-re {
+        height: 100%;
+        width: 100%;
     }
     
-    
-    
-    
-    .woman-blackdiv {
-        display:inline;
+    .modern-text {
+        display: none;
     }
     .woman-main-pic {
         display: none;
     }
-    .img-woman-rescont {
-        display: none;
+    .main-pic-re {
+        width: 700px;
+        display: block;
     }
-    .woman-blackdiv {
-        position: relative;
-        display: flex;
-        width: 80%;
+    .womanpic-recont {
+        background-color: black;
+        width: 500px;
+        height: 600px;
     }
-    .main-blackdiv {
-        width:50%;
-        background-color: #151515;
-    }
-    .side-woman {
-        width:70%;
-        height:799px;
-        background-image: url('https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.15752-9/311050466_443249524585701_8478249984809585180_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeED8lgV-j3biJ6tQzOkO39sltbwcA7gJk-W1vBwDuAmT9jcAtlBEce1u47c76C0mK4opVOBl5oeevRfjOiNs_eO&_nc_ohc=Xue9qhitWQsAX_vO66z&_nc_ht=scontent.ftbs5-3.fna&oh=03_AdRqe3ll4vxBUoJO58I-iFObAWkANHX7Bp32gOSsYD3fqQ&oe=6353A420');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .side-womanpic {
+    .forre {
         width: 100%;
-        height: 100%;
+        height: 300px;
+        display: flex;
+        position: absolute;
+        left: 20%;
+        top: 30%;
     }
-    .modern-text {
+    .textfor-re {
+        display: block;
+        margin-left: 70%;
+    }
+    .notre {
         display: none;
     }
-    .modern-textre {
-        display: inline;
+    .modern-text-re {
+        display: block;
         position: absolute;
-        top: 189px;
-        left: 190px;
         font-size: 96px;
         line-height: 88px;
-        letter-spacing: 0.5px;
-        color: transparent;
-        text-shadow: 0 0 0 #33333333;
-        background: linear-gradient(
-           220deg,
-           var(--color-1) 19%,
-           transparent 19%, transparent 20%,
-        );
+        mix-blend-mode:
     }
 }
