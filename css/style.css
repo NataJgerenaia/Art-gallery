@@ -86,11 +86,13 @@ body {
 }
 .black-div {
     background-color: #151515;
+    width: 90%;
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 24px;
     padding-right: 24px; 
     margin-top: 16px;   
+
 }
 .blackdiv-text {
     width: 295px;
@@ -129,6 +131,31 @@ footer {
     justify-content: space-between;
     margin-top: 38px;
 }
+.black-part:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+}
+.black-part:hover + .lightbrown-part {
+    background-color: #151515;
+}
+.fbicon:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+}
+.instaicon:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+}
+.twiticon:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+} 
+
+
+
+
+
+
 /* location sidee */
 .map {
     width: 100%;
@@ -273,6 +300,21 @@ footer {
 .para {
     color: #151515;
 }
+/* .part-black:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+}
+.part-black:hover + .location-back-lightbrown {
+    background-color: #151515;
+    cursor: pointer;
+} */
+.part-black:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+}
+.black-part:hover .location-back-lightbrown {
+    background-color: #151515;
+}
 @media screen and (min-width:780px) {
     .container {
         margin-left: 40px;
@@ -302,7 +344,10 @@ footer {
         top: 100px;
     }
     .img-text {
+        width: 100%;
         display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
     .day-text {
         margin-top: 156px;
@@ -312,7 +357,7 @@ footer {
         order: 1;
     }
     .interior1-cont {
-        width: 60%;
+        width: 56%;
         order: 2;
     }
     .interior-pic2 {
@@ -325,14 +370,20 @@ footer {
     .twopic-col {
         display: flex;
         flex-direction: column;
-        width: 42%;
+        width: 100%;
     }
     .interior-pic3-re {
         display: inline;
+        width: 100%;
+    }
+    .black-div {
+        width: 100%;
     }
     .interior3pic-re {
         display: flex;
         margin-top: 11px;
+        margin-right: 0;
+        width: 100%;
     }
     .footer-div {
         display: flex;
@@ -380,17 +431,19 @@ footer {
     }
 }
 /* for desktop */
-@media screen and (min-width:1300px) {
+@media screen and (min-width:1200px) {
     .img-woman-rescont {
         display: none;
     }
-  
+    .container {
+        margin-left: 165px;
+        margin-right: 165px;
+    }
     .woman-blackdiv {
         width: 90%;
         height: 100%;
         display: flex;
         position: relative;
-        justify-content: center;
     }
     .black-divpartre {
         width: 40%;
@@ -404,6 +457,9 @@ footer {
         background-image: url('../images/mainre.jpg');
         background-size: cover;
         background-position: 100%;
+    }
+    .textfor-re {
+        margin-right: 0;
     }
     .main-pic-re {
         height: 100%;
@@ -430,8 +486,15 @@ footer {
         height: 300px;
         display: flex;
         position: absolute;
-        left: 20%;
+        margin-left: 165px;
+        /* left: 18rem; */
         top: 30%;
+    }
+    .text {
+        font-size: 22px;
+    }
+    .day-text {
+        width: 35%;
     }
     .textfor-re {
         display: block;
@@ -441,10 +504,26 @@ footer {
         display: none;
     }
     .modern-text-re {
+        color: white;
         display: block;
         position: absolute;
         font-size: 96px;
         line-height: 88px;
-        mix-blend-mode:
+        mix-blend-mode:difference;
     }
+    .twopic-col{
+     width: 70%;
+    }
+    .img-text {
+        width: 100%;
+    }
+    .brown-black-div {
+        margin-left: 165px;
+    }
+    .container3 {
+        margin: 0;
+    }
+}
+@media screen and (min-width:1250px) {
+    
 }
