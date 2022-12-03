@@ -317,7 +317,7 @@ footer {
         position: relative;
         width: 60%;
         height: 700px;
-        background-image: url('https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.15752-9/311050466_443249524585701_8478249984809585180_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeED8lgV-j3biJ6tQzOkO39sltbwcA7gJk-W1vBwDuAmT9jcAtlBEce1u47c76C0mK4opVOBl5oeevRfjOiNs_eO&_nc_ohc=Xue9qhitWQsAX_vO66z&_nc_ht=scontent.ftbs5-3.fna&oh=03_AdRm2jGRhs2eUpdKESkWn57AwyXd3ws0kvXbXcwlOLLzTw&oe=63773CA0');
+        background-image: url('../images/main-woman-pic.jpg');
         background-size: cover;
         background-position: center;
         background-repeat:no-repeat;
@@ -365,6 +365,14 @@ footer {
     }
     .black-div {
         width: 100%;
+        height: 100%;
+    }
+    .blackdiv-title {
+        font-size: 5em;
+        line-height: 100px;
+    }
+    .blackdiv-text {
+        font-size: 2em;
     }
     .interior3pic-re {
         display: flex;
